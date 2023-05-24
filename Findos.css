@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+/*naburger*/
+  
+nav{
+    font-family: 'Cinzel', serif;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: #9d7373;
+    }
+    
+ 
+    nav img{
+      width: 65px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  
+
+  
+  
+  
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+
+  
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+
+  
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  
+  
+
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background-color: #9d7373;
+      top: 80px;
+      left: -100%;
+      text-align: right;
+      transition: all .5s; 
+      padding: 20px;
+      padding-right: 30px;
+    }
+
+    
+    nav ul li{
+      display: block;
+      margin: 40px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+
+    a:hover{
+      background-color: #9d7373;
+    }
+    
+    #check:checked ~ ul{
+      left: 0;
+    
+    }
+    
+
+    
+  
+  section{
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+  }
+
+  section{
+    display: none;
+  }
+
+/*navburger*/
+
+
+
+/*main*/
+
+main{
+    padding: 3rem;
+  
+}
+
+.Findos{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 5rem;
+    color: rgb(235, 141, 107);
+    padding-bottom: 30px;
+    padding-top: 4rem;
+}
+
+
+.butik{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  height: 70vh;
+}
+
+.butik div img{
+ width: 500px;
+height: 400px;
+}
+
+
+
+.søster{
+    font-family: 'Cinzel', serif;
+    color: rgb(235, 141, 107);
+    font-size: 2rem;
+}
+.siki{
+    font-family: 'Cinzel', serif;
+    color: rgb(235, 141, 107);
+    font-size: 2rem;
+}
+.fund{
+    font-family: 'Cinzel', serif;
+    color: rgb(235, 141, 107);
+    font-size: 2rem;
+}
+
+.adresse{
+    font-family: 'Cinzel', serif;
+    color: rgb(235, 141, 107);
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.åbningstider{
+  font-family: 'Castoro', sans-serif;
+    color: rgb(235, 141, 107);
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.dag{
+  
+  font-family: 'Castoro', sans-serif;
+  font-size: 15px;
+  padding-bottom: 5px;
+  color: rgb(235, 141, 107);
+}
+
+
+
+/*main*/
+
+/*footer*/
+footer i{
+    color: rgb(235, 141, 107);
+    font-size: 30pt;
+    padding-bottom: 10px;
+    padding-top: 20px;
+
+}
+
+footer p{
+    color: rgb(235, 141, 107);
+    padding-bottom: 5px;
+}
+
+
+.right p{
+  padding-bottom: 10px;
+}
+
+
+.right p img{
+  width: 75px;
+  padding-bottom: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    font-family: 'Castoro', sans-serif;
+}
+
+/*footer*/
+
+
+@media only screen and (max-width: 1000px) {
+
+
+  .butik div img{
+    display: none;
+   }
+
+  
+}
