@@ -10,6 +10,8 @@
     box-sizing: border-box;
 }
 
+/*fjerner default styling på links*/
+
 
 /*navburger*/
   
@@ -20,6 +22,8 @@ nav{
     position: fixed;
     background-color: #9d7373;
     }
+
+    /*sætter header i top*/
     
  
     nav img{
@@ -29,7 +33,7 @@ nav{
     }
   
 
-  
+  /*styling logo*/
   
   
   nav ul{
@@ -37,12 +41,17 @@ nav{
     margin-right: 20px;
   }
 
+
+  /*liste til højre*/
+
   
   nav ul li{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
   }
+
+
   nav ul li a{
     color: white;
     font-size: 17px;
@@ -61,9 +70,13 @@ nav{
     cursor: pointer;
     display: none;
   }
+
   #check{
     display: none;
   }
+
+
+  /*skjuler checkbutton og viser at den er klikbar*/
   
   
 
@@ -83,6 +96,9 @@ nav{
       padding-right: 30px;
     }
 
+
+    /*transition på menuen ved left og transition*/
+
     
     nav ul li{
       display: block;
@@ -101,6 +117,9 @@ nav{
       left: 0;
     
     }
+
+
+  /*viser menuen ved left når box er checked*/
     
 
     
@@ -111,9 +130,16 @@ nav{
     height: calc(100vh - 80px);
   }
 
+  /*sætter højde på section med menupunkter*/
+
+
   section{
     display: none;
   }
+  
+
+  /*skjuler menu når den ikke vises*/ 
+
 
 /*navburger*/
 
@@ -126,6 +152,9 @@ main{
     display: flex;
     height: 100vh;
 }
+
+/*display flex for layout af billede og tekst*/
+
 
 .headertext{
   padding-left:  2rem;
@@ -186,6 +215,9 @@ footer{
     padding: 2rem;
 }
 
+/*display flex og justify content for layout af footer*/
+
+
 /*footer*/
 
 
@@ -197,36 +229,42 @@ footer{
     padding-left: 0px;
   }
 
+  /*fjerner padding på overskrift i mobilversion*/
+
   main {
     display: block;
     padding-top: 3rem;
     height: 150vh;
   }
 
+  /*ændrer layout til block i stedet for flex*/
+
   .image{
     width: 350px;
     padding-top: 6rem;
   }
 
+  /*gør billede mindre*/
+
   .Omgågade{
     font-size: 4rem;
     padding-top: 1rem;
   }
+  /*gør overskrift mindre*/
 
 
   .right p img{
     width: 50px;
-    
-  
   }
+  /*SOME tekst mindre*/
 
   footer i{
     font-size: 14pt;
   }
 
+  /*SOME ikoner mindre*/
   
-  
-  
+
 
 }
 
